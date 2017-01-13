@@ -1,4 +1,4 @@
-react环境安装（babel+webpack+react）
+﻿react环境安装（babel+webpack+react）
 
 1.安装nodeJs
 	官网下载：https://nodejs.org/en/
@@ -31,3 +31,4 @@ react环境安装（babel+webpack+react）
 
 5.运行服务
 	$ npm start
+顶顶顶顶顶顶顶顶顶顶顶顶顶
