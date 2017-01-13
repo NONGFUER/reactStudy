@@ -1,0 +1,33 @@
+react环境安装（babel+webpack+react）
+
+1.安装nodeJs
+	官网下载：https://nodejs.org/en/
+	version: v6.9.4 LTS					//其他版本也可，这是最新的长期支持版
+2.打开npm,全局安装babel、webpack模块
+	$ npm install babel-cli -g
+	$ npm install webpack -g
+	$ npm install webpack-dev-server --save-dev
+3.新建项目文件，npm初始化项目，添加依赖包
+	$ mkdir reactApp   					//你也可以手动在任意个文件夹里新建，不过添加依赖包操作必须在项目文件夹下操作
+	$ npm init         					//初始化项目，生成package.json 文件
+	项目下添加react依赖包
+	$ npm install react --save
+	$ npm install react-dom --save       //--save将包添加到package.json文件内
+
+	项目下添加babel插件
+	$ npm install babel-core
+	$ npm install babel-loader
+	$ npm install babel-preset-react
+	$ npm install babel-preset-es2015
+
+	项目下添加webpack包
+	$ npm install webpack
+	$ npm install webpack-dev-server
+4.创建文件
+	webpack.config.js//设置编译器，服务器，载入器
+	App.jsx			//react组件
+	main.js         //引入react组件并渲染页面
+	index.html		//被渲染的页面
+
+5.运行服务
+	$ npm start
